@@ -24,7 +24,7 @@ let meuapp = {
 				console.log(c);
 				meuapp.contatoSelecionado = c;
 				console.log(c.displayName);
-				let spanElement = document.getElementById("nomeDoContato").InnerHTML = c.displayName;
+				let spanElement = document.getElementById("nomeDoContato").innerHTML = c.displayName;
 				console.log(spanElement);
 				
 				console.log(c.photos);
